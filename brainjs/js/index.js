@@ -1,24 +1,16 @@
-import { data } from "./data.js";
-import fs from "node:fs/promises";
+import { networkState } from "./trainedNet.js";
 
-console.log(brain);
+// const answer = network.run("world war");
 
-let network = new brain.recurrent.LSTM({
-  inputSize: 1,
-  outputSize: 1,
-  hiddenLayers: [4, 8, 8],
-});
+// document.querySelector("#answer").innerHTML = answer;
+// document.querySelector("#app").innerHTML = brain.utilities.toSVG(network);
 
-network.train(data, {
-    iterations: 20000,
-    errorThresh: 0.003,
-    logPeriod: 100,
-    log: (stats) => console.log(stats)
-});
 
-fs.writeFileSync('trained-net.js', `export default ${ network.toFunction().toString() };`);
+//creating new brain with the saved data
+let net = new brain.recurrent.LSTM();
+net.fromJSON(networkState).toString();
 
-const answer = network.run("world war");
+const answer = net.run("solve");
 
 document.querySelector("#answer").innerHTML = answer;
-document.querySelector("#app").innerHTML = brain.utilities.toSVG(network);
+document.querySelector("#app").innerHTML = brain.utilities.toSVG(net);

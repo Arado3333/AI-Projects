@@ -187,5 +187,5 @@ export const data = [
   {
     input: "who are the board members of Samsung",
     output: "company",
-  }
+  },
 ];
