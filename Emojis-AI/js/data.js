@@ -1,171 +1,142 @@
+//--------------Tokenized Outputs--------------//
+
 export const data = [
-    // Love/Heart emoji (💕)
-    {
-        input: "two hearts together forever",
-        output: "💕"
-    },
-    {
-        input: "feeling deep romantic love",
-        output: "💕"
-    },
-    {
-        input: "heart is very happy",
-        output: "💕"
-    },
-    {
-        input: "showing affection and care",
-        output: "💕"
-    },
-    {
-        input: "love with all heart",
-        output: "💕"
-    },
-    {
-        input: "pink hearts show love",
-        output: "💕"
-    },
-    {
-        input: "symbols of true love",
-        output: "💕"
-    },
-    {
-        input: "hearts floating with joy",
-        output: "💕"
-    },
-    
-    // Grinning face (😁)
-    {
-        input: "big happy grinning",
-        output: "😁"
-    },
-    {
-        input: "smiling with bright eyes",
-        output: "😁"
-    },
-    {
-        input: "extremely joyful expression",
-        output: "😁"
-    },
-    {
-        input: "showing teeth while smiling",
-        output: "😁"
-    },
-    {
-        input: "grinning with happy eyes",
-        output: "😁"
-    },
-    {
-        input: "wide smile showing teeth",
-        output: "😁"
-    },
-    {
-        input: "beaming with pure joy",
-        output: "😁"
-    },
-    {
-        input: "cheerful grin face expression",
-        output: "😁"
-    },
-    
-    // Party face (🥳)
-    {
-        input: "celebrating with party hat",
-        output: "🥳"
-    },
-    {
-        input: "happy party celebration",
-        output: "🥳"
-    },
-    {
-        input: "festive celebration time now",
-        output: "🥳"
-    },
-    {
-        input: "enjoying the party moment",
-        output: "🥳"
-    },
-    {
-        input: "party face having fun",
-        output: "🥳"
-    },
-    {
-        input: "wearing festive party hat",
-        output: "🥳"
-    },
-    {
-        input: "celebration face with horn",
-        output: "🥳"
-    },
-    {
-        input: "party time happy",
-        output: "🥳"
-    },
-    
-    // Angry  (😡)
-    {
-        input: "very angry red",
-        output: "😡"
-    },
-    {
-        input: "face showing pure anger",
-        output: "😡"
-    },
-    {
-        input: "mad with rage face",
-        output: "😡"
-    },
-    {
-        input: "extremely frustrated expression ",
-        output: "😡"
-    },
-    {
-        input: "angry steaming mad ",
-        output: "😡"
-    },
-    {
-        input: "red face with anger",
-        output: "😡"
-    },
-    {
-        input: "pouting angry expression ",
-        output: "😡"
-    },
-    {
-        input: "furious mad face showing",
-        output: "😡"
-    },
-    
-    // Zany face (🤪)
-    {
-        input: "silly crazy wacky ",
-        output: "🤪"
-    },
-    {
-        input: "goofy expression showing tongue",
-        output: "🤪"
-    },
-    {
-        input: "wild and zany face",
-        output: "🤪"
-    },
-    {
-        input: "quirky crazy face expression",
-        output: "🤪"
-    },
-    {
-        input: "playful wacky face showing",
-        output: "🤪"
-    },
-    {
-        input: "crazy eyes silly face",
-        output: "🤪"
-    },
-    {
-        input: "zany face rolling eyes",
-        output: "🤪"
-    },
-    {
-        input: "goofy face being silly",
-        output: "🤪"
-    }
+    // Love/Heart emoji (E1)
+    { input: "I love you", output: "E1" },
+    { input: "Feeling so loved", output: "E1" },
+    { input: "Hearts full of joy", output: "E1" },
+    { input: "Expressing deep love", output: "E1" },
+    { input: "Overwhelmed with love", output: "E1" },
+    { input: "All my love to you", output: "E1" },
+    { input: "This feels so romantic", output: "E1" },
+    { input: "Pure affection", output: "E1" },
+    { input: "Warm and fuzzy feelings", output: "E1" },
+    { input: "Heartfelt emotions", output: "E1" },
+    { input: "Totally smitten", output: "E1" },
+    { input: "Loving every moment", output: "E1" },
+    { input: "True love forever", output: "E1" },
+    { input: "love", output: "E1" },
+    { input: "love is in the air", output: "E1" },
+    { input: "overwhelmed", output: "E1" },
+    { input: "lovely", output: "E1" },
+    { input: "love you", output: "E1" },
+    { input: "I like you", output: "E1" },
+    { input: "romantic", output: "E1" },
+    { input: "so romantic", output: "E1" },
+    { input: "romance", output: "E1" },
+    { input: "true love", output: "E1" },
+
+    // Grinning face (E2)
+    { input: "So happy right now", output: "E2" },
+    { input: "Can't stop smiling", output: "E2" },
+    { input: "This is so funny", output: "E2" },
+    { input: "Bright and cheerful", output: "E2" },
+    { input: "What a great moment", output: "E2" },
+    { input: "Beaming with joy", output: "E2" },
+    { input: "Laughing out loud", output: "E2" },
+    { input: "Huge grin on my face", output: "E2" },
+    { input: "Bursting with happiness", output: "E2" },
+    { input: "Absolutely thrilled", output: "E2" },
+    { input: "Feeling ecstatic", output: "E2" },
+    { input: "Joyful beyond words", output: "E2" },
+    { input: "Smiling ear to ear", output: "E2" },
+    { input: "smiling", output: "E2" },
+    { input: "very happy", output: "E2" },
+    { input: "satisfied", output: "E2" },
+    { input: "awesome", output: "E2" },
+    { input: "big smile", output: "E2" },
+    { input: "smile, you're on camera", output: "E2" },
+    { input: "smile everywhere", output: "E2" },
+    { input: "smiley", output: "E2" },
+    { input: "thrilled", output: "E2" },
+    { input: "so excited", output: "E2" },
+    { input: "happiness", output: "E2" },
+    { input: "joy", output: "E2" },
+
+    // Party face (E3)
+    { input: "Let's celebrate!", output: "E3" },
+    { input: "Throwing a big party", output: "E3" },
+    { input: "Cheers to good times", output: "E3" },
+    { input: "Feeling festive", output: "E3" },
+    { input: "Party mood activated", output: "E3" },
+    { input: "This calls for a celebration", output: "E3" },
+    { input: "Time to have fun", output: "E3" },
+    { input: "Celebrating good news", output: "E3" },
+    { input: "Dancing with joy", output: "E3" },
+    { input: "Party vibes all around", output: "E3" },
+    { input: "Hooray for this moment", output: "E3" },
+    { input: "Fun times with everyone", output: "E3" },
+    { input: "Festivities are here", output: "E3" },
+    { input: "i feel festive", output: "E3" },
+    { input: "festival", output: "E3" },
+    { input: "celebration", output: "E3" },
+    { input: "celebrate", output: "E3" },
+    { input: "let's throw a party", output: "E3" },
+    { input: "party", output: "E3" },
+    { input: "happy birthday", output: "E3" },
+    { input: "whoohoo!", output: "E3" },
+
+    // Angry face (E4)
+    { input: "So frustrated right now", output: "E4" },
+    { input: "This makes me mad", output: "E4" },
+    { input: "Angry and fuming", output: "E4" },
+    { input: "I can't handle this", output: "E4" },
+    { input: "Pure rage", output: "E4" },
+    { input: "I'm losing my temper", output: "E4" },
+    { input: "Furious about this", output: "E4" },
+    { input: "Angry beyond words", output: "E4" },
+    { input: "This is infuriating", output: "E4" },
+    { input: "Steam coming out of ears", output: "E4" },
+    { input: "Boiling with anger", output: "E4" },
+    { input: "Utterly annoyed", output: "E4" },
+    { input: "Seething with frustration", output: "E4" },
+    { input: "frustration", output: "E4" },
+    { input: "furious", output: "E4" },
+    { input: "losing temper", output: "E4" },
+    { input: "infuriating", output: "E4" },
+    { input: "anger", output: "E4" },
+    { input: "boiling hot", output: "E4" },
+    { input: "steam out of my ears", output: "E4" },
+    { input: "angry", output: "E4" },
+    { input: "can't handle this", output: "E4" },
+    { input: "rage", output: "E4" },
+    { input: "losing mind", output: "E4" },
+    { input: "pure anger", output: "E4" },
+    { input: "fuming", output: "E4" },
+
+    // Zany face (E5)
+    { input: "Feeling so silly", output: "E5" },
+    { input: "This is crazy fun", output: "E5" },
+    { input: "Acting goofy", output: "E5" },
+    { input: "Being super playful", output: "E5" },
+    { input: "What a wacky day", output: "E5" },
+    { input: "Laughing at my own jokes", output: "E5" },
+    { input: "Feeling a bit wild", output: "E5" },
+    { input: "This is so quirky", output: "E5" },
+    { input: "Off the wall fun", output: "E5" },
+    { input: "Totally wacky vibes", output: "E5" },
+    { input: "Goofing around all day", output: "E5" },
+    { input: "Acting wild and silly", output: "E5" },
+    { input: "Completely bonkers", output: "E5" },
+    { input: "bonkers", output: "E5" },
+    { input: "silly", output: "E5" },
+    { input: "wild", output: "E5" },
+    { input: "laughing", output: "E5" },
+    { input: "feeling wild", output: "E5" },
+    { input: "quirky", output: "E5" },
+    { input: "stupid", output: "E5" },
+    { input: "off the wall", output: "E5" },
+    { input: "super fun", output: "E5" },
+    { input: "funny face", output: "E5" },
+    { input: "get stupid", output: "E5" },
+    { input: "stupidity", output: "E5" },
+    { input: "funny", output: "E5" },
 ];
+
+export const emojiMap = {
+    E1: "💕",
+    E2: "😁",
+    E3: "🥳",
+    E4: "😡",
+    E5: "🤪",
+};

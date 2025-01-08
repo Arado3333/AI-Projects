@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    background-color: rgb(244, 244, 243);
+    margin-top: 5%;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+#input label {
+    margin-bottom: 10px;
+}
+
+#app {
+    margin-top: 1%;
+}

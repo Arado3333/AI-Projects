@@ -4,19 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Emojis AI</title>
     <script src="//unpkg.com/brain.js"></script>
     <script type="module" src="./js/index.js"></script>
 </head>
 
 <body>
+    <h2>Emoji's AI</h2>
+    <span>Neural Net Representation</span>
     <div id="app"></div>
     <p id="answer"></p>
     <form id="input" action="#">
-        <label for="query">input:</label>
-        <input type="text" name="query" id="query">
+        <label for="query">Write your prompt:</label>
+        <textarea name="query" id="query" cols="30" rows="10"></textarea>
         <button type="submit">Run</button>
     </form>
+    <br>
+    <span>*Seperate your text into multiple prompts by putting a dot followed by 1 space ('. ')</span>
+    <span>**Open browser's console before running for stats</span>
 
 </body>
 
